@@ -107,7 +107,7 @@ export function deleteById(id: UUID) {
     );
 }
 
-export function CLEAR_DB() {
+function CLEAR_DB() {
     fs.writeFileSync(DB_FILE_PATH, "");
 }
 
