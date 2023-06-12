@@ -16,5 +16,5 @@ jobs:
               run: "ls -la"
             - name: "Install Dependencies"
               run: "npm install"     
-            - name: "Lint2"
+            - name: "Lint 3"
               run: "npm run lint"        
