@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-lasted
         steps:
             - name: "Lint"
-              run: "echo 'alo alo w brazil'"        
+              run: "npm run lint"        
