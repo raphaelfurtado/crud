@@ -1,0 +1,71 @@
+{
+  "todos": [
+    {
+      "id": "5550a88a-50ca-448f-bbb0-c1480ee81f23",
+      "date": "2023-03-27T00:07:51.718Z",
+      "content": "Primeira TODO",
+      "done": false
+    },
+    {
+      "id": "ae800f92-2993-4278-9b1c-917da9c459b7",
+      "date": "2023-03-27T00:07:51.718Z",
+      "content": "Atualizada!",
+      "done": false
+    },
+    {
+      "id": "be800f92-2993-4278-9b1c-917da9c459b7",
+      "date": "2023-03-27T00:07:51.718Z",
+      "content": "Ir ao parque",
+      "done": false
+    },
+    {
+      "id": "br800f92-2993-4278-9b1c-917da9c459b7",
+      "date": "2023-03-27T00:07:51.718Z",
+      "content": "Passear com a doguinha",
+      "done": false
+    },
+    {
+      "id": "ed0f4cae-2faf-4b41-805b-01397db48bd4",
+      "date": "2023-05-22T18:36:05.433Z",
+      "content": "Novo Conteúdo!!",
+      "done": false
+    },
+    {
+      "id": "2b8c5035-b4bd-4fda-ba6d-f81a9071648c",
+      "date": "2023-05-22T18:38:06.520Z",
+      "content": "Novo Conteúdo!!",
+      "done": false
+    },
+    {
+      "id": "ecda07fa-fab4-4f09-a90e-ab4f8e66be88",
+      "date": "2023-05-22T20:03:41.737Z",
+      "content": "Vou ficar fera nisso!",
+      "done": false
+    },
+    {
+      "id": "afe6e702-9e61-4ad2-89e2-19d5a364ad3d",
+      "date": "2023-06-06T10:02:35.599Z",
+      "content": "Pagar internet",
+      "done": false
+    },
+    {
+      "id": "ccc4362c-6eec-40d6-afaa-89da516214ac",
+      "date": "2023-06-06T10:09:15.317Z",
+      "content": "Pagar MEI",
+      "done": false
+    },
+    {
+      "id": "9bdd5228-8e08-4f0c-83d1-6935797f10df",
+      "date": "2023-06-07T19:33:05.420Z",
+      "content": "Deposito Sicred",
+      "done": false
+    },
+    {
+      "id": "25f8ab3b-1699-4432-a338-f435f55072a0",
+      "date": "2023-06-12T10:25:15.842Z",
+      "content": "Test todo",
+      "done": false
+    }
+  ],
+  "dogs": []
+}
