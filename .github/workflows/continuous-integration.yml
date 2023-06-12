@@ -7,7 +7,7 @@ on:
 
 jobs:
     lint:
-        runs-on: ubuntu-latesd
+        runs-on: ubuntu-latest
         steps:
             - name: "Lint"
               run: "npm run lint"        
