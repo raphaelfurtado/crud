@@ -8,16 +8,17 @@ env:
     VERCEL_ORG_ID: 0y1eiFey8qTs5Q8gQv8C17FM
     VERCEL_PROJECT_ID: prj_MfLmSSIRsQAJ59GDcVt3AaaHDLYP
 
-jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            ## [Common_CI_Steps]
-            - uses: actions/checkout@v3
-            ## =================
-            - name: "Debug"
-              run: "ls -la"
-            - name: "Install Dependencies"
-              run: "npm install"     
-            - name: "Deploy"
-              run: "npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}"         
+jobs: 
+    deploy: 
+      runs-on: ubuntu-latest
+      steps:
+        ## [Common_CI_Steps]
+        - uses: actions/checkout@v3
+        ## =================
+        - name: "Debug"
+          run: |
+            ls -la
+        - name: "Install Dependencies"
+          run: "npm install"
+        - name: "Deploy"
+          run: "npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}"       
