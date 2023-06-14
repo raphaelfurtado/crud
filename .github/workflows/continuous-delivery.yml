@@ -20,5 +20,5 @@ jobs:
               run: "ls -la"
             - name: "Install Dependencies"
               run: "npm install"     
-            - name: "Deploy"
+            - name: "Deploy 2"
               run: "npx vercel --prod"         
