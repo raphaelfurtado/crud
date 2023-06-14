@@ -19,5 +19,5 @@ jobs:
               run: "ls -la"
             - name: "Install Dependencies"
               run: "npm install"     
-            - name: "Deploy 2"
-              run: "npx vercel --prod --token=0F7lNdmfX4Dk3ei8HCLLgxe5"         
+            - name: "Deploy"
+              run: "npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}"         
