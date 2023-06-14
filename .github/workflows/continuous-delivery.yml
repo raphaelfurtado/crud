@@ -1,4 +1,4 @@
-name: "[CD] Continuous Delivery 3"
+name: "[CD] Continuous Delivery"
 
 #Sempre que tiver um commit ou um Pull Request for aberto
 on: 
@@ -16,5 +16,5 @@ jobs:
               run: "ls -la"
             - name: "Install Dependencies"
               run: "npm install"     
-            - name: "Lint"
+            - name: "Deploy"
               run: "npx vercel --prod"         
