@@ -1,4 +1,4 @@
-name: "[CD] Continuous Delivery 2"
+name: "[CD] Continuous Delivery 3"
 
 #Sempre que tiver um commit ou um Pull Request for aberto
 on: 
