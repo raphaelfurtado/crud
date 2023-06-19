@@ -1,12 +1,7 @@
 import { z as schema } from "zod";
+import { PrismaClient } from "@prisma/client";
+export const prisma = new PrismaClient();
 
-// // Model/Schema
-// interface Todo {
-//     id: string;
-//     content: string;
-//     date: Date;
-//     done: boolean;
-// }
 export const TodoSchema = schema.object({
     id: schema.string().uuid(),
     content: schema.string().nonempty(),

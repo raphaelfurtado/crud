@@ -44,7 +44,7 @@ function HomePage() {
 
     return (
         <main>
-            <GlobalStyles themeName="devsoutinho" />
+            <GlobalStyles themeName="indigo" />
 
             <header
                 style={{
